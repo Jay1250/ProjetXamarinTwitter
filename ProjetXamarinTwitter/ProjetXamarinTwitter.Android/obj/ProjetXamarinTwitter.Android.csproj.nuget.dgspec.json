@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj": {}
+    "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj": {
+    "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj",
         "projectName": "ProjetXamarinTwitter.Android",
-        "projectPath": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj",
+        "projectPath": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\ProjetXamarinTwitter.Android.csproj",
         "packagesPath": "C:\\Users\\Megaport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\obj\\",
+        "outputPath": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj": {
-                "projectPath": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj"
+              "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj": {
+                "projectPath": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj": {
+    "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj",
+        "projectUniqueName": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj",
         "projectName": "ProjetXamarinTwitter",
-        "projectPath": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj",
+        "projectPath": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter.csproj",
         "packagesPath": "C:\\Users\\Megaport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Megaport\\source\\repos\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\obj\\",
+        "outputPath": "C:\\Users\\Megaport\\source\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\ProjetXamarinTwitter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

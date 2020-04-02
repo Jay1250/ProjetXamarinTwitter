@@ -21,7 +21,7 @@ namespace ProjetXamarinTwitter
 
         private readonly ITwitterService twitterService = new TwitterService();
         
-        public async Task Connection(object sender, EventArgs e)
+        public async void Connection(object sender, EventArgs e)
         {
 
             if (this.login.Text == null || string.IsNullOrEmpty(this.login.Text.ToString()))

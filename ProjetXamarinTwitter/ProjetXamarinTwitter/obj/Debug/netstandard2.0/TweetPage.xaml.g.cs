@@ -14,7 +14,7 @@ namespace ProjetXamarinTwitter {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("TweetPage.xaml")]
-    public partial class TweetPage : global::Xamarin.Forms.ContentView {
+    public partial class TweetPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView TweetsList;

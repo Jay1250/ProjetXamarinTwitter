@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace ProjetXamarinTwitter
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TweetPage : ContentView
+    public partial class TweetPage : ContentPage
     {
         private readonly ITwitterService twitterService = new TwitterService();
 
