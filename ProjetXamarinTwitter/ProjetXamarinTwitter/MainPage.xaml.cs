@@ -23,41 +23,50 @@ namespace ProjetXamarinTwitter
         
         public async void Connection(object sender, EventArgs e)
         {
+            if(isValidFormFields()) successConnection();   
+        }
 
+        private Boolean isValidFormFields()
+        {
+            var IsValid = true;
             if (this.login.Text == null || string.IsNullOrEmpty(this.login.Text.ToString()))
             {
                 this.GenerateError("Veuillez renseigner un identifiant");
-                return;
+                IsValid = false;
             }
             if (this.login.Text.Length < 3)
             {
                 this.GenerateError("L'identifiant doit faire au moins 3 caractères");
-                return;
+                IsValid = false;
             }
             if (this.password.Text == null || string.IsNullOrEmpty(this.password.Text.ToString()))
             {
                 this.GenerateError("Veuillez renseigner un mot de passe");
-                return;
+                IsValid = false;
             }
             if (this.password.Text.Length < 6)
             {
                 this.GenerateError("Le mot de passe doit faire au moins 6 caractères");
-                return;
+                IsValid = false;
             }
             NetworkAccess networkAccess = Connectivity.NetworkAccess;
 
             if (networkAccess != NetworkAccess.Internet)
             {
                 this.GenerateError("Veuillez vous connecter à internet");
-                return;
+                IsValid = false;
             }
             if (!this.twitterService.Authenticate(this.login.Text, this.password.Text))
             {
                 this.GenerateError("L'identifiant et/ou le mot de passe sont incorrects");
-                return;
+                IsValid = false;
             }
-            await Navigation.PushAsync(new TweetPage());
+            return IsValid;
+        }
 
+        private async void successConnection()
+        {
+            await Navigation.PushAsync(new TweetPage());
         }
 
         private void GenerateError(string message = null)

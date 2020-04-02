@@ -18,7 +18,6 @@ C:\Users\Megaport\source\repos\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetX
 C:\Users\Megaport\source\repos\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\ListTweets.xaml.g.cs
 C:\Users\Megaport\source\repos\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\Views\Footer.xaml.g.cs
 C:\Users\Megaport\source\repos\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\TweetPage.xaml.g.cs
-C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\ProjetXamarinTwitter.csprojAssemblyReference.cache
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\TweetPage.xaml.g.cs
@@ -35,3 +34,4 @@ C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarin
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\bin\Debug\netstandard2.0\ref\ProjetXamarinTwitter.dll
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\bin\Debug\netstandard2.0\ProjetXamarinTwitter.pdb
 C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Megaport\source\ProjetXamarinTwitter\ProjetXamarinTwitter\ProjetXamarinTwitter\obj\Debug\netstandard2.0\ProjetXamarinTwitter.csprojAssemblyReference.cache

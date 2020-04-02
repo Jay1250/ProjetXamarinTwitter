@@ -9,9 +9,9 @@
         <StackLayout Orientation="Vertical">
             <StackLayout BackgroundColor="#58B0F0">
                 <Grid Margin="10, 25">
-                    <Image Source="{utils:ImageFromResources Xamarin_Module4.Images.baseline_create.png}" Grid.Column="0" HorizontalOptions="StartAndExpand" Aspect="AspectFill" WidthRequest="25"/>
+                    <Image Source="{utils:ImageFromResources ProjetXamarinTwitter.Images.baseline_create.png}" Grid.Column="0" HorizontalOptions="StartAndExpand" Aspect="AspectFill" WidthRequest="25"/>
                     <Label Text="Accueil" TextColor="#ffffff" Grid.Column="1" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="20"/>
-                    <Image Source="{utils:ImageFromResources Xamarin_Module4.Images.baseline_search.png}" Grid.Column="2" HorizontalOptions="EndAndExpand" Aspect="AspectFill"  WidthRequest="25"/>
+                    <Image Source="{utils:ImageFromResources ProjetXamarinTwitter.Images.baseline_search.png}" Grid.Column="2" HorizontalOptions="EndAndExpand" Aspect="AspectFill"  WidthRequest="25"/>
                 </Grid>
             </StackLayout>
         </StackLayout>

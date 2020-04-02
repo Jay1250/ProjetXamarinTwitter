@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:utils="clr-namespace:projetXamarinTwitter.Utils"
              xmlns:views="clr-namespace:ProjetXamarinTwitter.Views"
+                xmlns:views2="clr-namespace:ProjetXamarinTwitter"
              mc:Ignorable="d"
              x:Class="ProjetXamarinTwitter.MainPage">
 
@@ -26,9 +27,10 @@
                 <Label x:Name="error" IsVisible="False" TextColor="DarkRed"></Label>
             </StackLayout>
         </ContentView>
-
-
+        
         <views:Footer/>
+        
+        
 
     </StackLayout>
 </ContentPage>

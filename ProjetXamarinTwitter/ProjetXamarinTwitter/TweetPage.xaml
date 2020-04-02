@@ -22,6 +22,7 @@
                                     <StackLayout Orientation="Vertical">
                                         <StackLayout Orientation="Horizontal">
                                             <Label Text="{Binding Author.Name}" TextColor="#000000"/>
+                                            <Label Text="{Binding PublicationDate}" TextColor="#000000" HorizontalOptions="EndAndExpand"></Label>
                                         </StackLayout>
                                         <Label Text="{Binding Text}" TextColor="#000000"/>
                                     </StackLayout>
