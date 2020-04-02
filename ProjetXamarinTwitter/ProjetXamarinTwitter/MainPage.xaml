@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:utils="clr-namespace:projetXamarinTwitter.Utils"
+             xmlns:views="clr-namespace:ProjetXamarinTwitter.Views"
+             mc:Ignorable="d"
+             x:Class="ProjetXamarinTwitter.MainPage">
+
+
+    <StackLayout Orientation="Vertical">
+
+        <views:NavBar/>
+
+        <ContentView x:Name="form_connection">
+            <StackLayout Orientation="Vertical" Margin="10">
+                <Label Text="Twitter" FontSize="25" FontAttributes="Bold" TextColor="#58B0F0" HorizontalOptions="CenterAndExpand" />
+                <Entry x:Name="login" Placeholder="Identifiant" PlaceholderColor="Gray"/>
+                <Entry x:Name="password" Placeholder="Mot de passe" PlaceholderColor="Gray" IsPassword="True"/>
+                <StackLayout Orientation="Horizontal">
+                    <Switch x:Name="memoryInfos"/>
+                    <Label Text="Mémoriser mes informations" VerticalOptions="CenterAndExpand"></Label>
+                </StackLayout>
+                <Label x:Name="messageError" IsVisible="False" TextColor="Red"/>
+                <Button Text="Se connecter" x:Name="btnConnexion" Clicked="Connection"/>
+                <Label x:Name="error" IsVisible="False" TextColor="DarkRed"></Label>
+            </StackLayout>
+        </ContentView>
+
+
+        <views:Footer/>
+
+    </StackLayout>
+</ContentPage>

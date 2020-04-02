@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:utils="clr-namespace:projetXamarinTwitter.Utils"
+             mc:Ignorable="d"
+             xmlns:views="clr-namespace:ProjetXamarinTwitter.Views"
+             x:Class="ProjetXamarinTwitter.TweetPage">
+  <ContentView.Content>
+
+        <StackLayout Orientation="Vertical">
+
+            <views:NavBar/>
+
+            <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <ListView x:Name="TweetsList">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical">
+                                    <StackLayout Margin="10" Orientation="Horizontal">
+                                        <Image Margin="10" WidthRequest="75" Aspect="AspectFit" Source="https://picsum.photos/50/50/?random"/>
+                                        <StackLayout Orientation="Vertical">
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{Binding Author.Name}" TextColor="#000000"/>
+                                            </StackLayout>
+                                            <Label Text="{Binding Text}" TextColor="#000000"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <Grid>
+                                        <Image Source="{utils:ImageFromResources ProjetXamarinTwitter.Images.baseline_reply.png}" Grid.Column="0" HorizontalOptions="CenterAndExpand" Aspect="AspectFill" WidthRequest="25"/>
+                                        <Image Source="{utils:ImageFromResources ProjetXamarinTwitter.Images.baseline_repeat.png}" Grid.Column="1" HorizontalOptions="CenterAndExpand" Aspect="AspectFill" WidthRequest="25"/>
+                                        <Image Source="{utils:ImageFromResources ProjetXamarinTwitter.Images.baseline_favorite.png}" Grid.Column="2" HorizontalOptions="CenterAndExpand" Aspect="AspectFill" WidthRequest="25"/>
+                                    </Grid>
+                                    <StackLayout HeightRequest=".5" BackgroundColor="#BBBBBB"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+            <views:Footer/>
+        </StackLayout>
+
+
+    </ContentView.Content>
+</ContentView>
